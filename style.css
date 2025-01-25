@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+.banner h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(245, 1, 139);
+}
+.banner iframe{
+  padding-left: 500px;
+  padding-top: 20px;
+}
+.navbar{
+    width: 50%;
+    margin: 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul{
+    margin: -550px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(121, 116, 116);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    font-size: 20px;
+    color: white;
+    
+}
+/* cards css */
+.disabilities{
+    color:white;
+}
+.disabilities h1{
+    margin: 0 80px;
+    font-weight: bold;
+}
+.cardcontainer {
+    margin: 30px 83px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.card{
+    margin: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    transition: all 0.9s;
+    font-weight: bold;
+
+}
+.card:hover{
+    background-color: rgb(71, 68, 68);
+    cursor: pointer;
+ }
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card>* {
+    padding-top: 10px;
+}
